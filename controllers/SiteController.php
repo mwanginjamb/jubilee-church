@@ -64,6 +64,23 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionPrograms()
+    {
+        return $this->render('programs');
+    }
+
+
+    public function actionMinistries()
+    {
+        return $this->render('ministries');
+    }
+
+    public function actionMission()
+    {
+        return $this->render('mission');
+    }
+
+
     /**
      * Login action.
      *
