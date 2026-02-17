@@ -39,7 +39,7 @@ $this->title = 'JOC Ministries';
                         style='background-image: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBwMBIfXIV47dpZ9A_1X131jz7ekTkZRjMrWo7HnTx0SqbQDAyNYzlFjGjZRB1khDDGm1HgrecicEGtDaIu0zfgl8W42zPoMgnhWrKxOtYmH4gPP5uUao-uw5o4oJETTa1tulFMqEmBNTikkGiFfYj52mchrCoYfH3GinfKNW81GELETV5uHTJRxWDcFD-7Jce5GphWrk3x3fob0AqCbn-udeeHqnt6v2zKwpc4eSYnW8BdKTP2XJLBJZElLbHJwwYAe_bIdgy-M8Q");'>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">Nairobi Sanctuary</h3>
+                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">HQ Sanctuary - Thika</h3>
                         <div class="flex gap-3">
                             <button
                                 class="flex-1 flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-colors">
@@ -61,7 +61,7 @@ $this->title = 'JOC Ministries';
                         style='background-image: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuChkATgUgip_1k5qkNOTxNCMWpG9AMF4LhqWjDjyZekD76q2H2KdjguPx81UTnnd8F9WlKObCf48FAJ-zR7-P-cAXYLQXiVQziDAXk4nGgCP5B4D45pQmOdmhTW5ZeyiSNtnu4CnnjfycaL0MXpOiAUJqmM9wWahwMerr3cqefVOPfquW2uA14noV-QHtMNWZ8cp5Sz3tClux6z54a41sBhKSRP3D3GHQgDMn9d2nkkXDg_q_HVXJYosm3Ja-aRUBv3T7rCagvAmDo");'>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">Thika Sanctuary</h3>
+                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">Kibute Sanctuary</h3>
                         <div class="flex gap-3">
                             <button
                                 class="flex-1 flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-colors">
@@ -83,7 +83,7 @@ $this->title = 'JOC Ministries';
                         style='background-image: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBFRyWeCybJ8HUbFtxBokkLa8TjE3BNicy3QEaIF_uky-CeFUVbebXNm70zbQC7whgPC2uqi0oUCFob-BD0r7eNhkYAbnIJp8jioH2var0V9CwF_ckDsXceTx0yfKwqkydFtIk2qZC2dYwhVj0UuThu-LcDjcNThdLNCM9c5uBEeNiyzdDid4JwxbwgONskH0BKHKMnwLA-C1BL3vgB_eLblVQwgylneBvt0o7rQ99-Mr_pZxYUJW0h2oO69Exr_kREbJD63bqiskE");'>
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-6">
-                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">Busia Sanctuary</h3>
+                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4">Laare Sanctuary</h3>
                         <div class="flex gap-3">
                             <button
                                 class="flex-1 flex items-center justify-center gap-2 rounded-lg h-11 bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-colors">

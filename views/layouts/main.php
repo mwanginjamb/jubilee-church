@@ -4,7 +4,7 @@
  * @var string $content
  */
 
-$this->title = 'Jubilee Church';
+$this->title = 'Jubilee Community Outreach Church';
 use app\assets\AppAsset;
 AppAsset::register($this);
 
@@ -39,10 +39,13 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
             <!-- Logo -->
             <div class="flex items-center gap-3">
-                <div class="size-8 text-primary">
+                <!-- <div class="size-8 text-primary">
                     <span class="material-symbols-outlined text-3xl">church</span>
+                </div> -->
+                <div class="my-3 row justify-content-around text-center">
+                    <img src="<?= \yii\helpers\Url::to('/images/logo.jpg') ?>" width="50" alt="Church Logo" title="Jubilee Community Outreach Church" />
                 </div>
-                <h2 class="text-[#111318] dark:text-white text-xl font-extrabold tracking-tight">Jubilee Church</h2>
+                <h2 class="text-[#111318] dark:text-white text-xl font-extrabold tracking-tight">Jubilee Community Outreach Church</h2>
             </div>
 
             <!-- Desktop Nav -->
@@ -88,7 +91,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     <div class="size-6 text-primary">
                         <span class="material-symbols-outlined text-3xl">church</span>
                     </div>
-                    <h3 class="font-extrabold text-lg">Jubilee Church..</h3>
+                    <h3 class="font-extrabold text-lg">Jubilee Community Outreach Church</h3>
                 </div>
                 <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
                     A community driven by love, dedicated to outreach and spiritual growth in the heart of our city.
