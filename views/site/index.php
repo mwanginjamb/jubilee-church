@@ -91,7 +91,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcluQntNj0yw7oGMdy1_FVz7pHrqkL27FT9WhaiyJD9_xdlXNNHybklRpjqQ0iNYenUY8s1d3sB9pqtnV-YelCx9ugaf9eq2hae3LZSM-UK8gbdMOpjHFBwNUP4MS97KRTzz7LYFEgdZdkf4aRu_lM54DEj1u96b33_sP9rpBsX1faOWrQ4rJca7SGyfYZRHxxAXonsa5XtZ-ll95LvYmTqta7jptDgsvNA4ga1mE9EQ9q9EdkziNj6Dc15kP2hr6RtVjkHB6Aniw");'>
+                        style='background-image: url(<?= \Yii::getAlias('@web') . '/images/prayers.jpeg' ?>);'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">10:30 AM - 11:00 AM</span>
@@ -103,7 +103,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGZdk95jsUQviZsP-q5WAFdG38hIejU8gU3BwrcGoUz1als4TKCtZN3CcR-S4qRbxyzl8k2PEH7inft5aYXnEgBnxXtx8gp01jgKJWlbSuQt1EcA-v7m9d1ZqEzpJ3rO1Rlzser2SuMtipUoOdymjNM-eenLHbsEDqWtQ1QPRDMKCd0zkgg6zGFUHBVFa2RS4lvVqwiqCq_pVieT_q_vNTDH2LFgtGukPZ659IOUX_gDK9W9WO6FH14eXXBRBTb0c6ylbfbOG8Jyo");'>
+                        style='background-image: url("<?= \Yii::getAlias('@web') . '/images/sunday.jpg' ?>");'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">11:00 AM - 11:30 AM</span>
@@ -129,7 +129,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA8MMZI0xVY3h0Geq2SgJP-JpCe9c1KmtqA-0W3jhb0lIWWGI_z_RhpcmNZfx83KfdJVPgzT45J_m08aI95cjEyB4e9QQK-bIltifbZeZVDNpB93ta_5dD0D_fTyHKIPWxzN3DPlGW4jaNRJxfaTlK5tEf2Ef6P2KGpMxCD5qjxe1nqCO9xLx4QzjI7vjGX0fKS0Tsez-17vzZ43jYqS1iYl0ebn-zcm3aFbsP5vfklnFXJUsnoW-dgGroNhQEQ3HgkwlCzbfg9C1o");'>
+                        style='background-image: url(<?= \Yii::getAlias('@web') . '/images/preaching.jpeg' ?>);'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">12:00 PM - 12:45 PM</span>

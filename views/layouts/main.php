@@ -43,9 +43,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     <span class="material-symbols-outlined text-3xl">church</span>
                 </div> -->
                 <div class="my-3 row justify-content-around text-center">
-                    <img src="<?= \yii\helpers\Url::to('/images/logo.jpg') ?>" width="50" alt="Church Logo" title="Jubilee Community Outreach Church" />
+                    <img src="<?= \yii\helpers\Url::to('/images/logo.jpg') ?>" width="50" alt="Church Logo"
+                        title="Jubilee Community Outreach Church" />
                 </div>
-                <h2 class="text-[#111318] dark:text-white text-xl font-extrabold tracking-tight">Jubilee Community Outreach Church</h2>
+                <h2 class="text-[#111318] dark:text-white text-xl font-extrabold tracking-tight">Jubilee Community
+                    Outreach Church</h2>
             </div>
 
             <!-- Desktop Nav -->
@@ -119,11 +121,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 <div class="space-y-4 text-sm text-slate-600 dark:text-slate-400">
                     <p class="flex items-start gap-2">
                         <span class="material-symbols-outlined text-sky-accent text-sm">location_on</span>
-                        123 Outreach Way, Faith District<br />Springfield, ST 12345
+                        Kiambu County,<br />Thika, Makongeni, Phase 8
                     </p>
                     <p class="flex items-center gap-2">
                         <span class="material-symbols-outlined text-sky-accent text-sm">call</span>
-                        (555) 123-4567
+                        (+254) 724 636 864
                     </p>
                 </div>
             </div>

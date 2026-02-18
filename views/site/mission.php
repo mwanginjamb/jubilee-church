@@ -29,8 +29,8 @@ $this->title = 'JOC Ministries';
             <div class="masonry-grid">
                 <!-- Church Planting -->
                 <div class="masonry-tall relative group overflow-hidden rounded-xl bg-gray-200"
-                    data-alt="Modern church interior with congregation gathered in prayer"
-                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOM4nblavtaDoGHiKbJPhsiWMkKVJkTKJEMEoNCDLXkCYdagpr2yaVkGLibu3a8smfR2m2NC25Lef9wBhp_-q8CU83srII_P1DzAFVdD5921lK6-UlGMQfSrMrAbJoWM888IdJHLgBRI32HMMzvlG1fVx_p9tTelOrNuwGFiDTEixEfT9BOoCVNppbfI9F8N09hngi6fACxirD5Lb1hOQ6qKMfeakWx0qwwcaIOTxRSwDSSdvDPHRguLn7THS0JFAo_I-8Ow37W0A"); background-size: cover; background-position: center;'>
+                    data-alt="Modern church interior with congregation gathered in prayer" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/church-planting.jpg"); background-size: cover; background-position:
+                    center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <span
                             class="text-xs uppercase tracking-widest font-bold text-primary mb-2 block">Foundation</span>
@@ -42,7 +42,7 @@ $this->title = 'JOC Ministries';
                 <!-- Children Ministry -->
                 <div class="relative group overflow-hidden rounded-xl bg-gray-200"
                     data-alt="Children laughing and learning together in a bright classroom"
-                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA5MIbhpnBXlu1GgR5PFv0pLBWP5W5uXVDztp6rbSozIPqvmQWQC6fEuVj-q9NnMg_qdiErWbA-1QaL_NgrcXM23JZrKISpqdWH0LBZl8g55uz03BBLyso3jMXnoWyoOJH0xpN3BneIy7lAt1gKjUvXMrWEdUjeDb67FWuIv1Kbhqd4qjgSowORxcpMb87-_GSYRDr9_Z3sGh675BdXquF6RjW8rmh1rerrFsnrAIRxr3PgviZQtqgCHU4SlvMsrQeHfNv4ph_FY8U"); background-size: cover; background-position: center;'>
+                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/children.jpg"); background-size: cover; background-position: center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <h3 class="text-xl font-bold">Children Ministry</h3>
                         <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
