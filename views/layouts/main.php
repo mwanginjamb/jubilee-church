@@ -17,6 +17,17 @@ $this->registerMetaTag(['name' => 'keywords', 'content' => $this->params['meta_k
 $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/favicon.png')]);
 ?>
 <?php $this->beginPage() ?>
+<?php
+use \yii\helpers\Html;
+// Helper: returns nav link classes based on current route
+$navClass = function(string $controller, string $action = 'index') use (&$navClass): string {
+    $isActive = Yii::$app->controller->id === $controller
+             && Yii::$app->controller->action->id === $action;
+    return $isActive
+        ? 'text-primary text-sm font-bold'
+        : 'text-[#111318] dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors';
+};
+?>
 <!DOCTYPE html>
 <html class="light" lang="en">
 
@@ -95,16 +106,16 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             <!-- Desktop Nav -->
             <nav class="hidden md:flex items-center gap-8">
                 <?= \yii\helpers\Html::a('Home', ['site/index'], [
-                    'class' => 'text-primary text-sm font-bold',
+                    'class' => $navClass('site', 'index'),
                 ]) ?>
                 <?= \yii\helpers\Html::a('Programs', ['site/programs'], [
-                    'class' => 'text-[#111318] dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors',
+                    'class' => $navClass('site', 'programs'),
                 ]) ?>
                 <?= \yii\helpers\Html::a('Ministries', ['site/ministries'], [
-                    'class' => 'text-[#111318] dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors',
+                    'class' => $navClass('site', 'ministries'),
                 ]) ?>
                 <?= \yii\helpers\Html::a('Our Mission', ['site/mission'], [
-                    'class' => 'text-[#111318] dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors',
+                    'class' => $navClass('site', 'mission'),
                 ]) ?>
             </nav>
 
@@ -131,18 +142,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         <!-- Mobile Menu Drawer -->
         <div id="mobile-menu" role="navigation" aria-label="Mobile navigation">
             <nav class="flex flex-col px-6 pb-5 pt-2 gap-1 border-t border-slate-100 dark:border-slate-800">
-                <?= \yii\helpers\Html::a('Home', ['site/index'], [
-                    'class' => 'py-3 px-4 rounded-lg text-primary text-sm font-bold bg-primary/5',
-                ]) ?>
-                <?= \yii\helpers\Html::a('Programs', ['site/programs'], [
-                    'class' => 'py-3 px-4 rounded-lg text-[#111318] dark:text-slate-300 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors',
-                ]) ?>
-                <?= \yii\helpers\Html::a('Ministries', ['site/ministries'], [
-                    'class' => 'py-3 px-4 rounded-lg text-[#111318] dark:text-slate-300 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors',
-                ]) ?>
-                <?= \yii\helpers\Html::a('Our Mission', ['site/mission'], [
-                    'class' => 'py-3 px-4 rounded-lg text-[#111318] dark:text-slate-300 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors',
-                ]) ?>
+                <!-- Mobile Menu Drawer -->
+            <?= Html::a('Home',       ['site/index'],    ['class' => $navClass('site', 'index')   . ' py-3 px-4 rounded-lg']) ?>
+            <?= Html::a('Programs',   ['site/programs'], ['class' => $navClass('site', 'programs'). ' py-3 px-4 rounded-lg']) ?>
+            <?= Html::a('Ministries', ['site/ministries'],['class' => $navClass('site', 'ministries').' py-3 px-4 rounded-lg']) ?>
+            <?= Html::a('Our Mission',['site/mission'],  ['class' => $navClass('site', 'mission') . ' py-3 px-4 rounded-lg']) ?>
 
                 <!-- CTA visible on very small screens -->
                 <div class="pt-3 sm:hidden">
@@ -205,7 +209,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                         <p class="flex items-start gap-2">
                             <span class="material-symbols-outlined text-sky-accent text-base mt-0.5 shrink-0">mail</span>
                             <a href="mailto:jubileecommunitychurch20@gmail.com"
-                               class="hover:text-primary transition-colors break-all">jubileecommunitychurch20@gmail.com</a>
+                               class="hover:text-primary transition-colors break-all" title="Click to Message Us Via E-mail to (jubileecommunitychurch20@gmail.com)">E-Mail Us</a>
                         </p>
                     </div>
                 </div>
