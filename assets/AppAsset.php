@@ -43,6 +43,7 @@ class AppAsset extends AssetBundle
         // 1. Custom Tailwind config — must execute first so the
         //    CDN script can read `tailwind.config` when it loads.
         'js/tailwind.config.js',
+        'js/app.js'
     ];
 
     public $depends = [

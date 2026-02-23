@@ -14,7 +14,7 @@ $this->registerMetaTag(['charset' => Yii::$app->charset], 'charset');
 $this->registerMetaTag(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1, shrink-to-fit=no']);
 $this->registerMetaTag(['name' => 'description', 'content' => $this->params['meta_description'] ?? '']);
 $this->registerMetaTag(['name' => 'keywords', 'content' => $this->params['meta_keywords'] ?? '']);
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/favicon.ico')]);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/favicon.png')]);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -24,6 +24,15 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title><?= \yii\helpers\Html::encode($this->title) ?></title>
+    <!-- PWA – paste inside <head> in views/layouts/main.php -->
+       <link rel="manifest" href="<?= Yii::$app->request->baseUrl ?>/manifest.json">
+       <meta name="theme-color" content="#ffffff">
+       <meta name="mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-status-bar-style" content="default">
+       <meta name="apple-mobile-web-app-title" content="<?= Yii::$app->name ?>">
+   <!-- Apple touch icon (create a 180×180 PNG at web/img/icons/apple-touch-icon.png) -->
+    <link rel="apple-touch-icon" href="<?= Yii::$app->request->baseUrl ?>/images/icons/apple-touch-icon.png">
     <?php $this->head() ?>
     <!-- All CSS & JS (Tailwind, Google Fonts, app styles) are
          registered via AppAsset and rendered by Yii automatically. -->
@@ -125,7 +134,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     </p>
                     <p class="flex items-center gap-2">
                         <span class="material-symbols-outlined text-sky-accent text-sm">call</span>
-                        (+254) 724 636 864
+                        <a href="tel:+254 724 636 864">(+254) 724 636 864</a>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-sky-accent text-sm">mail</span>
+                        <a href="mailto:jubileecommunitychurch20@gmail.com">jubileecommunitychurch20@gmail.com</a>
                     </p>
                 </div>
             </div>
