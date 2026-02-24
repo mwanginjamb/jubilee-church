@@ -31,18 +31,12 @@ class AppAsset extends AssetBundle
         // Google Fonts — Material Symbols + Manrope
         'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap',
         'https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap',
-
+        'css/tailwind.css',
         // App-level styles (body font declaration, etc.)
         'css/app.css',
     ];
 
     public $js = [
-
-        // 2. Tailwind CSS CDN (play version) with required plugins.
-        '//cdn.tailwindcss.com?plugins=forms,container-queries',
-        // 1. Custom Tailwind config — must execute first so the
-        //    CDN script can read `tailwind.config` when it loads.
-        'js/tailwind.config.js',
         'js/app.js'
     ];
 

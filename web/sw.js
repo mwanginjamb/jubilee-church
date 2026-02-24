@@ -8,7 +8,7 @@
  *  - Everything else             → Network-First
  */
 
-const CACHE_VERSION = 'v1.76'; // bump this to invalidate all caches on deploy
+const CACHE_VERSION = 'v1.77'; // bump this to invalidate all caches on deploy
 const SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const IMAGE_CACHE = `app-images-${CACHE_VERSION}`;
 const FONT_CACHE = `app-fonts-${CACHE_VERSION}`;
@@ -18,7 +18,7 @@ const FONT_CACHE = `app-fonts-${CACHE_VERSION}`;
 const APP_SHELL_URLS = [
   '/',                            // main entry point
   '/css/app.css',
-  '/js/tailwind.config.js',
+  'css/tailwind.css',
   '/assets/7c84f9c8/yii.js',                   // yii\web\YiiAsset
 ];
 
@@ -26,7 +26,6 @@ const APP_SHELL_URLS = [
 const SWR_ORIGINS = [
   'fonts.googleapis.com',
   'fonts.gstatic.com',
-  'cdn.tailwindcss.com',
 ];
 
 // ── Helpers ────────────────────────────────────────────────────────────────

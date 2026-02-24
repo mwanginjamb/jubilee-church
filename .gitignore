@@ -37,3 +37,7 @@ tests/_support/_generated
 
 #environment file
 .env
+
+# Node
+node_modules/
+package-lock.json
