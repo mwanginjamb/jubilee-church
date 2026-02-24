@@ -55,7 +55,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcluQntNj0yw7oGMdy1_FVz7pHrqkL27FT9WhaiyJD9_xdlXNNHybklRpjqQ0iNYenUY8s1d3sB9pqtnV-YelCx9ugaf9eq2hae3LZSM-UK8gbdMOpjHFBwNUP4MS97KRTzz7LYFEgdZdkf4aRu_lM54DEj1u96b33_sP9rpBsX1faOWrQ4rJca7SGyfYZRHxxAXonsa5XtZ-ll95LvYmTqta7jptDgsvNA4ga1mE9EQ9q9EdkziNj6Dc15kP2hr6RtVjkHB6Aniw");'>
+                        style='background-image: url("<?= \Yii::getAlias('@web') . '/images/prayer1.jpeg' ?>");'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">8:00 AM - 9:00 AM</span>
@@ -141,7 +141,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcluQntNj0yw7oGMdy1_FVz7pHrqkL27FT9WhaiyJD9_xdlXNNHybklRpjqQ0iNYenUY8s1d3sB9pqtnV-YelCx9ugaf9eq2hae3LZSM-UK8gbdMOpjHFBwNUP4MS97KRTzz7LYFEgdZdkf4aRu_lM54DEj1u96b33_sP9rpBsX1faOWrQ4rJca7SGyfYZRHxxAXonsa5XtZ-ll95LvYmTqta7jptDgsvNA4ga1mE9EQ9q9EdkziNj6Dc15kP2hr6RtVjkHB6Aniw");'>
+                        style='background-image: url("<?= \Yii::getAlias('@web') . '/images/branches/PastorKawiraMeru.jpeg' ?>");'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">12:45 PM - 1:00 PM</span>
@@ -155,47 +155,47 @@ $this->title = 'Welcome to Jubilee Outreach Church';
 
 
     <!-- Word from the bishop -->
-     <section class="w-full bg-white dark:bg-slate-900 py-24">
-            <div class="max-w-[1280px] mx-auto px-4 md:px-10">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    <div class="relative">
-                        <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-                            <img alt="Rev. Dr. James Jubilee" class="w-full h-full object-cover"
-                                src="<?= \Yii::getAlias('@web') . '/images/preaching.jpeg' ?>" />
-                        </div>
-                        <div
-                            class="absolute -bottom-6 -right-6 w-32 h-32 bg-crimson-cta/10 rounded-full blur-3xl -z-10">
-                        </div>
+    <section class="w-full bg-white dark:bg-slate-900 py-24">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+                        <img alt="Rev. Dr. James Jubilee" class="w-full h-full object-cover"
+                            src="<?= \Yii::getAlias('@web') . '/images/preaching.jpeg' ?>" />
                     </div>
-                    <div class="space-y-8">
-                        <div class="space-y-2">
-                            <span class="text-crimson-cta font-bold uppercase tracking-widest text-xs">Leadership
-                                Message</span>
-                            <h2 class="text-[#111318] dark:text-white text-3xl md:text-4xl font-extrabold">A Word from
-                                the Presiding Minister</h2>
-                        </div>
-                        <div class="relative">
-                            <span class="absolute -top-10 -left-6 text-8xl text-crimson-cta/10 font-serif">“</span>
-                            <blockquote
-                                class="text-2xl md:text-3xl font-medium text-slate-800 dark:text-slate-200 leading-relaxed italic">
-                                Our doors are wide open to everyone, regardless of where you are on your spiritual
-                                journey. We believe in a community where love transforms lives and faith finds its true
-                                purpose.
-                            </blockquote>
-                        </div>
-                        <div class="flex items-center gap-4">
-                            <div class="h-px w-12 bg-crimson-cta"></div>
-                            <div>
-                                <p class="text-xl font-extrabold text-[#111318] dark:text-white">Peter Mugo, Jubilee Community Outreach
-                                </p>
-                                <p class="text-slate-500 dark:text-slate-400 font-semibold">Bishop &amp;
-                                    Visionary</p>
-                            </div>
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-crimson-cta/10 rounded-full blur-3xl -z-10">
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div class="space-y-2">
+                        <span class="text-crimson-cta font-bold uppercase tracking-widest text-xs">Leadership
+                            Message</span>
+                        <h2 class="text-[#111318] dark:text-white text-3xl md:text-4xl font-extrabold">A Word from
+                            the Presiding Minister</h2>
+                    </div>
+                    <div class="relative">
+                        <span class="absolute -top-10 -left-6 text-8xl text-crimson-cta/10 font-serif">“</span>
+                        <blockquote
+                            class="text-2xl md:text-3xl font-medium text-slate-800 dark:text-slate-200 leading-relaxed italic">
+                            Our doors are wide open to everyone, regardless of where you are on your spiritual
+                            journey. We believe in a community where love transforms lives and faith finds its true
+                            purpose.
+                        </blockquote>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="h-px w-12 bg-crimson-cta"></div>
+                        <div>
+                            <p class="text-xl font-extrabold text-[#111318] dark:text-white">Peter Mugo, Jubilee
+                                Community Outreach
+                            </p>
+                            <p class="text-slate-500 dark:text-slate-400 font-semibold">Bishop &amp;
+                                Visionary</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- ----------- Mission & Vision ----------- -->
     <section class="w-full bg-slate-50 dark:bg-slate-950 py-20">
@@ -205,7 +205,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <!-- Mission Card -->
                 <div class="relative group h-[400px] rounded-2xl overflow-hidden shadow-2xl">
                     <div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
-                        style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO8EnV7bLuYX2EKI46_Ty7wJAjC0B9xajxY4Le2temnWwndAEy978U0RB7MA1ytFa3Xy6djEiYkgpxT5e4tdJxUYqXb-VbxGHysR_ovfwPGzlM6zRMnOFgYpg-7LYqLOAuYxHpPwtqRVaC0sLpJ3tAOR0Sh7OzlN4JiEoA-lvo5WUSTWddymyMBAgXt5POJoNpVUDzWnul0YLg8iXWhvr0T2yZ4XnG7iliepcOZWthuGIia84Pro29qhivF4gB1NbQt6VqfLGoTwM");'>
+                        style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%), url(<?= \Yii::getAlias('@web') . '/images/baptism.JPG' ?>)'>
                     </div>
                     <div class="absolute inset-0 flex flex-col justify-end p-10">
                         <span
@@ -222,7 +222,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <!-- Vision Card -->
                 <div class="relative group h-[400px] rounded-2xl overflow-hidden shadow-2xl">
                     <div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
-                        style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGZdk95jsUQviZsP-q5WAFdG38hIejU8gU3BwrcGoUz1als4TKCtZN3CcR-S4qRbxyzl8k2PEH7inft5aYXnEgBnxXtx8gp01jgKJWlbSuQt1EcA-v7m9d1ZqEzpJ3rO1Rlzser2SuMtipUoOdymjNM-eenLHbsEDqWtQ1QPRDMKCd0zkgg6zGFUHBVFa2RS4lvVqwiqCq_pVieT_q_vNTDH2LFgtGukPZ659IOUX_gDK9W9WO6FH14eXXBRBTb0c6ylbfbOG8Jyo");'>
+                        style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%), url(<?= \Yii::getAlias('@web') . '/images/churchplanting.JPG' ?>)'>
                     </div>
                     <div class="absolute inset-0 flex flex-col justify-end p-10">
                         <span

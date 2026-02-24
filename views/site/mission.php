@@ -42,7 +42,7 @@ $this->title = 'JOC Ministries';
                 <!-- Children Ministry -->
                 <div class="relative group overflow-hidden rounded-xl bg-gray-200"
                     data-alt="Children laughing and learning together in a bright classroom"
-                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/children.jpg"); background-size: cover; background-position: center;'>
+                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/children2.jpeg"); background-size: cover; background-position: center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <h3 class="text-xl font-bold">Children Ministry</h3>
                         <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -52,7 +52,7 @@ $this->title = 'JOC Ministries';
                 <!-- Youth Ministry -->
                 <div class="relative group overflow-hidden rounded-xl bg-gray-200"
                     data-alt="Group of teenagers engaged in an outdoor team activity"
-                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTtcJJBdwCaF6P_xFw5nPy11JTKR-9JFAldLgyYrnFOmupte21csIrDu1fGm9WlrC7uPmfbveiuwgGri27yBZ2P4MST9zLo2FANqt_qMUHp7fZIxHlWvZE3Ze_c9h0_fJjZG3S7rGN9oX-nCVsRg_P58Z0hjvbvQX8ltKbJuUAJ2wnOZYIno5TWrGoxeUo4wX1gumFAPfNuqBIXz7XVsWBislwbcnywvuRKv8Yi5jduUpiE_npsdhoqhkZFvraMr9JVz6hK-T0-9g"); background-size: cover; background-position: center;'>
+                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/youth_green.jpeg"); background-size: cover; background-position: center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <h3 class="text-xl font-bold">Youth Ministry</h3>
                         <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -62,10 +62,10 @@ $this->title = 'JOC Ministries';
                 <!-- Community Outreach -->
                 <div class="masonry-tall relative group overflow-hidden rounded-xl bg-gray-200"
                     data-alt="Volunteers distributing food and supplies to people in need"
-                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAbWjsSjV0ys15b5w6ALhFPXSpnMq6ph_6qsNnX9wlzXd1AnU6YnM4pjVRhKNutekc785Z2pWXRPrGDB58m7d8Z9ahvAruDJ5-J_wCAzfgNLiOl3v6IEsiWlEbK5sRdkhTvFpX32NTSoU8vHAcdpGQeNRAolFucR7IEegwSN5Bly3cygjx1IbxBudKiZszUAStFDwqqLJw-0JotTqDocR041bph1HW7zTtNOWEypXu4aqBRzlypd12wHyMUQgM78MtzQGkp8PjQEqY"); background-size: cover; background-position: center;'>
+                    style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/outreach.jpeg"); background-size: cover; background-position: center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <span class="text-xs uppercase tracking-widest font-bold text-primary mb-2 block">Action</span>
-                        <h3 class="text-2xl font-bold">Community Outreach</h3>
+                        <h3 class="text-2xl font-bold">Community Outreach.</h3>
                         <p class="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
                             Serving the physical and spiritual needs of our city.</p>
                     </div>
