@@ -103,7 +103,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                 <div
                     class="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-slate-100 dark:border-slate-800">
                     <div class="h-32 bg-cover bg-center"
-                        style='background-image: url("<?= \Yii::getAlias('@web') . '/images/sunday.jpg' ?>");'>
+                        style='background-image: url("<?= \Yii::getAlias('@web') . '/images/sunday.JPG' ?>");'>
                     </div>
                     <div class="p-5">
                         <span class="text-sky-accent text-sm font-bold block mb-1">11:00 AM - 11:30 AM</span>

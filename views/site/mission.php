@@ -29,7 +29,7 @@ $this->title = 'JOC Ministries';
             <div class="masonry-grid">
                 <!-- Church Planting -->
                 <div class="masonry-tall relative group overflow-hidden rounded-xl bg-gray-200"
-                    data-alt="Modern church interior with congregation gathered in prayer" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/church-planting.jpg"); background-size: cover; background-position:
+                    data-alt="Modern church interior with congregation gathered in prayer" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url("<?= \Yii::getAlias('@web') ?>/images/church-planting.JPG"); background-size: cover; background-position:
                     center;'>
                     <div class="absolute bottom-0 left-0 p-6 text-white w-full">
                         <span
