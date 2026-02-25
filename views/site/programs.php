@@ -229,6 +229,85 @@ $this->title = 'JOC Programs';
                         </button>
                     </div>
                 </div>
+                 <!-- May: Men Fellowship -->
+                <div
+                    class="flex flex-col bg-white dark:bg-background-dark rounded-2xl border border-[#dbdfe6] dark:border-gray-800 overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img alt="Men Fellowship"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIYvrzGehT_Kz13FKmqwpmGMVfkAhdlbdX05Rf_QgdUSYPe_lm4nWITQel1OFLPKjC6juPsTZE67tQ4Mlx_1dqVzl9_kh9W3-JMydN6mGfDxu_BM0Ge-zG2TvthR2mNkI8tT7xWHWbH1aN3Ykq8PoHwrUrLF45IepNONfmbQX4-sY7Pf2OkftjDcebiBL9Qzbf4vdjX-_jh0bedd0xFvQwJYbhxsiFOYOxiVE8SpQflagK7qW2lE97-pA7WRqm69tM_enGIkBgbb4" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+                        <div
+                            class="absolute top-4 left-4 bg-white/95 dark:bg-background-dark/95 px-3 py-1 rounded-lg text-primary font-bold text-sm shadow-md z-10">
+                            MAY
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div
+                            class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4">
+                            <span class="material-symbols-outlined">groups</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Men Fellowship</h3>
+                        <p class="text-[#616f89] dark:text-gray-400 text-sm mb-6">A gathering for men to grow in faith,
+                            brotherhood, and leadership through shared experiences.</p>
+                        <button
+                            class="w-full py-3 rounded-lg border-2 border-primary text-primary font-bold text-sm hover:bg-primary hover:text-white transition-all">
+                            Register Interest
+                        </button>
+                    </div>
+                </div><!-- June: Women Conference -->
+                <div
+                    class="flex flex-col bg-white dark:bg-background-dark rounded-2xl border border-[#dbdfe6] dark:border-gray-800 overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img alt="Women Conference"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAI0q2qv8FjcbAGY3L-d8-_Nrg0k_vdBXrCDf94SkfskVDSvVi6mSVn-8LsRAYxtKzGAjavNolKVewkxrt9P3Q62pVDgfdQCuYrNY3aFOqwVFt__jQRKGx88L3ezxGnRDID3cBxg4X-Y0-YV3wNfkfrkkLigXCk1txBNWZ9TFWa60Jr2JzYeKjNiXU38y5jpRsdJLw4mwgRQCTpxjCZh7MOtT6mB86akUj1miwjlVspb-K_QSfpAl-d-6T_HDYdolXfoANbonK4hDU" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+                        <div
+                            class="absolute top-4 left-4 bg-white/95 dark:bg-background-dark/95 px-3 py-1 rounded-lg text-primary font-bold text-sm shadow-md z-10">
+                            JUNE
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div
+                            class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4">
+                            <span class="material-symbols-outlined">female</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Women Conference</h3>
+                        <p class="text-[#616f89] dark:text-gray-400 text-sm mb-6">An empowering annual conference
+                            designed to inspire and equip women of all ages.</p>
+                        <button
+                            class="w-full py-3 rounded-lg border-2 border-primary text-primary font-bold text-sm hover:bg-primary hover:text-white transition-all">
+                            Register Interest
+                        </button>
+                    </div>
+                </div><!-- August: Evangelism Mission -->
+                <div
+                    class="flex flex-col bg-white dark:bg-background-dark rounded-2xl border border-[#dbdfe6] dark:border-gray-800 overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="h-48 overflow-hidden relative">
+                        <img alt="Evangelism Mission"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCv0TsCyB6ERCTMz5nbiV-wDhQVNbA2OhvTNUA-NUepuTwx_A3-qqdxqxwEYCSc8IELzQEMvrUrA7SWVFw6XF85c5NnNtJK4mz53bGMgshP-sKDuN_-jACMfFLjwE0BDho3A3nnkTx1S5o3zWHVDkZ9oUfhqYbdr_IbUk_1OFukqlafyF_x2iqqedoy3t32QzYRfFDz-hdKj1rfktW3IcD60dGEz0_Cp2dcQw4M_FkWUKkw7j-1h5VxU_60E_QScfSWm0mCahv1Gzk" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+                        <div
+                            class="absolute top-4 left-4 bg-white/95 dark:bg-background-dark/95 px-3 py-1 rounded-lg text-primary font-bold text-sm shadow-md z-10">
+                            AUGUST
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div
+                            class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4">
+                            <span class="material-symbols-outlined">volunteer_activism</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Evangelism Mission</h3>
+                        <p class="text-[#616f89] dark:text-gray-400 text-sm mb-6">A community-focused outreach mission
+                            dedicated to sharing hope and faith across the region.</p>
+                        <button
+                            class="w-full py-3 rounded-lg border-2 border-primary text-primary font-bold text-sm hover:bg-primary hover:text-white transition-all">
+                            Join Mission
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

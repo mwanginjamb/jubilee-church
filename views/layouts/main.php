@@ -92,16 +92,18 @@ $navClass = function(string $controller, string $action = 'index') use (&$navCla
         <div class="max-w-[1280px] mx-auto px-6 lg:px-10 py-4 flex items-center justify-between">
 
             <!-- Logo -->
-            <div class="flex items-center gap-3">
-                <div class="my-1">
-                    <img src="<?= \yii\helpers\Url::to('/images/logo.jpg') ?>" width="44" height="44"
-                         alt="Church Logo" title="Jubilee Community Outreach Church"
-                         class="rounded-full object-cover" />
-                </div>
-                <h2 class="text-[#111318] dark:text-white text-base sm:text-xl font-extrabold tracking-tight leading-tight">
-                    Jubilee Community<br class="sm:hidden" /> Outreach Church
-                </h2>
-            </div>
+            <?= Html::a(
+    '<div class="my-1">
+        <img src="' . \yii\helpers\Url::to('/images/logo.jpg') . '" width="44" height="44"
+             alt="Church Logo" title="Jubilee Community Outreach Church"
+             class="rounded-full object-cover" />
+    </div>
+    <h2 class="text-[#111318] dark:text-white text-base sm:text-xl font-extrabold tracking-tight leading-tight">
+        Jubilee Community<br class="sm:hidden" /> Outreach Church
+    </h2>',
+    ['/site/index'],
+    ['class' => 'flex items-center gap-3 hover:opacity-80 transition-opacity', 'encode' => false]
+) ?>
 
             <!-- Desktop Nav -->
             <nav class="hidden md:flex items-center gap-8">
@@ -243,6 +245,15 @@ $navClass = function(string $controller, string $action = 'index') use (&$navCla
                 <p class="text-slate-400 text-xs">
                     © <?= date('Y') ?> Jubilee Community Outreach Church. All rights reserved.
                 </p>
+                 <p class="text-slate-300 dark:text-slate-600 text-xs mt-1">
+        Crafted with <span class="text-crimson-cta">♥</span> by
+        <?= Html::a('Gumzo Systems', 'https://www.linkedin.com/company/107594962/admin/dashboard/', [
+            'class'  => 'hover:text-primary transition-colors font-semibold',
+            'target' => '_blank',
+            'rel'    => 'noopener noreferrer',
+            'title'  => 'Connect with me on LinkedIn',
+        ]) ?>
+    </p>
             </div>
 
         </div>
