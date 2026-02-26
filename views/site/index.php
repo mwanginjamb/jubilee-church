@@ -213,8 +213,8 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                             Focus</span>
                         <h2 class="text-white text-3xl font-extrabold mb-4">Our Mission</h2>
                         <p class="text-white/80 text-lg max-w-md font-medium leading-snug">
-                            To serve, love, and reach our community for Christ through active outreach and radical
-                            hospitality.
+                            To reach the lost and win souls for Christ. Make disciples and feed them with the word of God to spiritual maturity,
+                             send them in the mission field to evangelize and help the community.
                         </p>
                     </div>
                 </div>
@@ -230,8 +230,7 @@ $this->title = 'Welcome to Jubilee Outreach Church';
                             Future</span>
                         <h2 class="text-white text-3xl font-extrabold mb-4">Our Vision</h2>
                         <p class="text-white/80 text-lg max-w-md font-medium leading-snug">
-                            A community transformed by faith, where every person discovers their purpose and finds a
-                            home.
+                             To be a Spirit led church family and create an environment for transformation and spiritual growth for everyone.
                         </p>
                     </div>
                 </div>
