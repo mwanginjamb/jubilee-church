@@ -79,6 +79,10 @@ class SiteController extends Controller
     {
         return $this->render('mission');
     }
+    public function actionSof()
+    {
+        return $this->render('sof');
+    }
 
 
     /**

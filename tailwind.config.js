@@ -25,6 +25,7 @@ module.exports = {
         "xl": "0.75rem",
         "full": "9999px"
       },
+
     },
   },
   plugins: [],
