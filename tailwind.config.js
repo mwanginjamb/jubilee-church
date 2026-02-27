@@ -14,7 +14,11 @@ module.exports = {
         "crimson-cta": "#DC143C",
         "background-light": "#f6f6f8",
         "background-dark": "#101622",
-        "crimson": "#dc2626"
+
+        // --- statement of faith page uses these aliases ---
+        // map them to the same values so both names work
+        "sky-blue": "#0ea5e9",   // alias for sky-accent
+        "crimson": "#dc2626",   // alias for crimson-cta
       },
       fontFamily: {
         "display": ["Manrope", "sans-serif"]
