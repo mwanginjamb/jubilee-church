@@ -8,7 +8,7 @@
  *  - Everything else             → Network-First
  */
 
-const CACHE_VERSION = 'v1.88'; // bump this to invalidate all caches on deploy
+const CACHE_VERSION = 'v1.89'; // bump this to invalidate all caches on deploy
 const SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
 const IMAGE_CACHE = `app-images-${CACHE_VERSION}`;
 const FONT_CACHE = `app-fonts-${CACHE_VERSION}`;

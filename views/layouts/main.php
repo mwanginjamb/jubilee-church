@@ -189,10 +189,10 @@ $navClass = function(string $controller, string $action = 'index') use (&$navCla
                 <div>
                     <h4 class="font-bold text-sm mb-5 uppercase tracking-widest text-primary">Quick Links</h4>
                     <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
-                        <li><?= \yii\helpers\Html::a('Our History', ['site/history'], ['class' => 'hover:text-primary transition-colors']) ?></li>
-                        <li><?= \yii\helpers\Html::a('Youth Ministry', ['youth/index'], ['class' => 'hover:text-primary transition-colors']) ?></li>
-                        <li><?= \yii\helpers\Html::a('Give Online', ['site/give'], ['class' => 'hover:text-primary transition-colors']) ?></li>
-                        <li><?= \yii\helpers\Html::a('Events Calendar', ['events/index'], ['class' => 'hover:text-primary transition-colors']) ?></li>
+                        <li><?= \yii\helpers\Html::a('Our Statement of Faith', ['site/sof'], ['class' => 'hover:text-primary transition-colors','title' => 'Jubilee Community Outreach Church Statement of Faith','target' => '_blank']) ?></li>
+                        <li><?= \yii\helpers\Html::a('Youth Ministry', ['site/mission'], ['class' => 'hover:text-primary transition-colors']) ?></li>
+                        <li><?= \yii\helpers\Html::a('Give Online', ['#'], ['class' => 'hover:text-primary transition-colors']) ?></li>
+                        <li><?= \yii\helpers\Html::a('Events Calendar', ['site/programs'], ['class' => 'hover:text-primary transition-colors']) ?></li>
                     </ul>
                 </div>
 
