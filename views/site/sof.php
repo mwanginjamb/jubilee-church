@@ -3,6 +3,7 @@
 /** @var yii\web\View $this */
 
 $this->title = 'Statement of Faith | Jubilee Community Outreach Church';
+use \yii\helpers\Html;
 ?>
 <div class="site-sof">
 
@@ -305,14 +306,13 @@ $this->title = 'Statement of Faith | Jubilee Community Outreach Church';
                     dedicated to growing in grace and truth together.
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
-                    <button
-                        class="bg-primary text-white px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">
-                        Contact Us
-                    </button>
-                    <button
-                        class="bg-white/10 text-white border border-white/20 px-8 py-3 rounded-full font-bold hover:bg-white/20 transition-all">
-                        View Ministries
-                    </button>
+                    <?= Html::a('Contact Us', 'mailto:jubileecommunitychurch20@gmail.com?subject=Enquiry%20-%20Jubilee%20Community%20Church', [
+    'class' => 'bg-primary text-white px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform inline-block',
+    'title' => 'Send us an email',
+]) ?>
+                    <?= Html::a('View Ministries', ['site/ministries'], [
+    'class' => 'bg-white/10 text-white border border-white/20 px-8 py-3 rounded-full font-bold hover:bg-white/20 transition-all inline-block',
+]) ?>
                 </div>
             </div>
         </section>
